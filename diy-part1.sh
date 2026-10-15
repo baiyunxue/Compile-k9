@@ -21,7 +21,7 @@ echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
 #echo "src-git usbmodem https://github.com/Azq2/openwrt-usbmodem" >> ./feeds.conf.default
 # Filogic(MT7981)闭源WiFi驱动源 (mt79xx)
-echo "src-git mtk https://github.com/mtk-openwrt/mt79xx-feeds" >> ./feeds.conf.default
+#echo "src-git mtk https://github.com/mtk-openwrt/mt79xx-feeds" >> ./feeds.conf.default
 
 #sed -i '$a src-git immortalwrt https://github.com/immortalwrt/luci.git;master' feeds.conf.default
 #sed -i '$a src-git kenzok8 https://github.com/kenzok8/small-package.git;19.07' feeds.conf.default
