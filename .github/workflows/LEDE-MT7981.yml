@@ -93,7 +93,7 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Install feeds ==> 【安装feeds】
-      run: cd openwrt && ./scripts/feeds install -a -p mtk && ./scripts/feeds install -a
+      run: cd openwrt && ./scripts/feeds install -a
 
     - name: Load custom configuration ==> 【加载自定义 .config 和 DIY_P2_SH】
       run: |
