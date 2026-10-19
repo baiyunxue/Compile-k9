@@ -32,7 +32,7 @@ jobs:
       - name: 导入你的.config配置
         run: |
           cd openwrt
-          cp ../configs/op-mt7981.config
+          cp ../configs/op-MT7981.config
           make defconfig
 
       - name: 释放磁盘空间（解决云编译磁盘不足）
