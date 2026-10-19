@@ -1,4 +1,4 @@
-name: 云编译OpenWrt
+name: OpenWrt主线
 on:
   push:
     branches: [ openwrt-24.10 ]
